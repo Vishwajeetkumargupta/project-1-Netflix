@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+
+}
+
+.first {
+    background-image: linear-gradient(to top, rgba(4, 4, 4, 0.778), rgba(0, 0, 0, 0.514)), url(IMG/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", "sans-serif";
+    padding-bottom: 100px;
+}
+
+nav img {
+    width: 10vw;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.nav .btn button {
+    width: 80px;
+    height: 30px;
+}
+
+.nav .btn #lang {
+    background: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+
+.nav .btn #signup {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 0px 0px 0px 10px;
+}
+
+.first .txt {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first .txt .bold {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.first .txt .stxt {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.first .txt .inpt {
+    margin: 15px;
+}
+
+.first .txt .inpt input {
+    width: 25rem;
+    height: 3.5rem;
+    padding: 0px 10px;
+    background-color: #30343fb2;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.first .txt .inpt input::placeholder {
+    color: rgba(255, 255, 255, 0.663);
+    font-size: 1rem;
+}
+
+.first .txt .inpt button {
+    width: 15rem;
+    height: 3.5rem;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.923);
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+/* second section  */
+
+.second {
+    background-color: #000000;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .txt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: larger;
+    text-wrap: wrap;
+}
+
+.second .txt .big {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.second .vid {
+    position: relative;
+}
+
+.second .vid img {
+    position: relative;
+    z-index: 10;
+}
+
+.second .vid video {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+}
+
+
+
+
+/* third section */
+
+
+
+.third {
+    background-color: #000000;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .img {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.third .img #mobile {
+    position: relative;
+    width: 90%;
+}
+
+.third .img .box {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    height: 10vh;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(223, 222, 222, 0.57);
+    width: 20vw;
+    margin: auto;
+    right: 33px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.third .img .box #stranger {
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.third .txt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.third .box #txt {
+    width: 200px;
+}
+
+.third .box #txt .white {
+    font-weight: 600;
+}
+
+.third .box #txt .blue {
+    color: #0071EB;
+    font-size: 0.9rem;
+}
+
+#downsvg {
+    width: 32px;
+}
+
+.third .txt {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.third .txt .bold {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding: 5px;
+}
+
+.third .txt .small {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding: 5px;
+}
+
+
+
+/* fourth section  */
+
+.fourth {
+    background-color: #000000;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .txt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: larger;
+    text-wrap: wrap;
+}
+
+.fourth .txt .big {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.fourth .vid {
+    position: relative;
+}
+
+.fourth .vid img {
+    position: relative;
+    z-index: 10;
+}
+
+.fourth .vid video {
+    position: absolute;
+    top: 57px;
+    right: 130px;
+    width: 400px;
+}
+
+
+/* section fifth  */
+
+.fifth {
+    background-color: #000000;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 150px;
+}
+
+.fifth .img {
+    position: relative;
+}
+
+.fifth .img img {
+    position: relative;
+    width: 100%;
+}
+
+.fifth .txt {
+    width: 500px;
+    padding: 0px 50px;
+    margin: 0px 50px;
+}
+
+.fifth .txt p {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+
+
+
+/* sixth section  */
+
+.sixth {
+    background-color: #000000;
+    margin: 10px 0px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.sixth h1 {
+    margin: 0px auto 30px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sixth .q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6 {
+    display: flex;
+    background-color: #292828;
+    max-width: 80vw;
+    margin: 15px auto;
+    padding: 15px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.sixth .inpt #h {
+    width: 25rem;
+    height: 3.5rem;
+    padding: 0px 10px;
+    background-color: #30343fb2;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.sixth .inpt #h::placeholder {
+    color: rgba(255, 255, 255, 0.663);
+    font-size: 1rem;
+}
+
+.sixth .inpt button {
+    width: 15rem;
+    height: 3.5rem;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.923);
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.sixth .ready {
+    text-align: center;
+    margin: 20px 10px 10px;
+    padding: 20px 10px 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+footer {
+    background-color: #000000;
+    margin: 10px 0px;
+    color: white;
+}
+
+.footer {
+    width: 70vw;
+    margin: auto;
+    padding: 20px 0px 80px 0px;
+}
+
+footer #que {
+    margin: 20px 0px;
+}
+
+footer .lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 30px;
+}
+
+footer .lists li {
+    list-style: none;
+}
+
+a {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer .btn button {
+    width: 80px;
+    height: 30px;
+    margin: 20px 0px;
+}
+
+.footer .btn #lang {
+    background: #0F0F0F;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+
+
+/* media query for screens up to 1000px wide */
+@media screen and (max-width: 1000px) {
+    .second {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .third {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fourth {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fifth {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .lists {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* media query for screens up to 500px wide */
+@media screen and (max-width: 600px) {
+    .first .txt .inpt input {
+        width: 80vw;
+    }
+
+    .second .txt {
+        width: 90vw;
+    }
+
+    .second .vid img {
+        width: 300px;
+    }
+
+    .second .vid video {
+        width: 200px;
+        top: 53px;
+        right: 50px;
+    }
+
+    .third .img .box {
+        width: 200px;
+        right: 0;
+    }
+
+    .third .txt {
+        width: 90vw;
+    }
+
+    .fourth .vid img {
+        width: 300px;
+    }
+
+    .fourth .vid video {
+        width: 200px;
+        top: 53px;
+        right: 50px;
+    }
+
+    .fourth .txt {
+        width: 90vw;
+    }
+
+    .fifth .txt {
+        width: 90vw;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+
+    .fifth .img img {
+        width: 50vw;
+    }
+
+    .sixth .size {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .sixth .q1,
+    .q2,
+    .q3,
+    .q4,
+    .q5,
+    .q6 {
+        max-width: 80vw;
+    }
+
+    .sixth .inpt #h {
+        width: 100%;
+    }
+
+    .sixth .inpt button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
